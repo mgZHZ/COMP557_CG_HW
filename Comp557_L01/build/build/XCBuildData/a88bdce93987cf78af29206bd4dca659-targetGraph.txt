@@ -1,0 +1,16 @@
+Target dependency graph (7 targets)
+ZERO_CHECK in L01, no dependencies
+glfw in L01, depends on:
+ZERO_CHECK in L01 (explicit)
+L01 in L01, depends on:
+glfw in L01 (explicit)
+ZERO_CHECK in L01 (explicit)
+ALL_BUILD in L01, depends on:
+L01 in L01 (explicit)
+glfw in L01 (explicit)
+ZERO_CHECK in L01 (explicit)
+install in L01, depends on:
+ALL_BUILD in L01 (explicit)
+uninstall in L01, no dependencies
+update_mappings in L01, depends on:
+ZERO_CHECK in L01 (explicit)
