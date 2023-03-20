@@ -1,14 +1,6 @@
 COMP557 Assignment1
 
-demo:
-
-https://drive.google.com/file/d/109SBRjm1SF9YPK96yvuYLKWK6c1BqSpE/view?usp=share_link
-
-
-Issue: the way of line drawing is inefficient, it requires a large amount of memory. The macOS will kill this thread when the use of memory reach to ~4GB. This might due to a super inefficient way of using buffer (such as the buffer never being released...?).
-
-Update： add glDeleteBuffers(1, &posBufID) at line 268, running time is extended from 15s to 55s.
-
+demo here: https://drive.google.com/file/d/109SBRjm1SF9YPK96yvuYLKWK6c1BqSpE/view?usp=share_link
 
 Keyboard Control:  
 	Space: pause the motion
@@ -35,4 +27,7 @@ Basic rendering structure:
 				- dagnode->draw(...): draw the object that the node corresponding to
 	
 
+Issue: the way of line drawing is inefficient, it requires a large amount of memory. The macOS will kill this thread when the use of memory reach to ~4GB. This might due to a super inefficient way of using buffer (such as the buffer never being released...?).
+
+Update： add glDeleteBuffers(1, &posBufID) at line 268, running time is extended from 15s to 55s.
 
