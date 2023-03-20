@@ -2,9 +2,7 @@ COMP557 Assignment1
 
 demo:
 
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/109SBRjm1SF9YPK96yvuYLKWK6c1BqSpE/view?usp=share_link" type="video/mp4">
-</video>
+https://drive.google.com/file/d/109SBRjm1SF9YPK96yvuYLKWK6c1BqSpE/view?usp=share_link
 
 
 Issue: the way of line drawing is inefficient, it requires a large amount of memory. The macOS will kill this thread when the use of memory reach to ~4GB. This might due to a super inefficient way of using buffer (such as the buffer never being released...?).
