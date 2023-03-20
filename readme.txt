@@ -1,6 +1,7 @@
-COMP557 Assignment1
 
-demo here: https://drive.google.com/file/d/109SBRjm1SF9YPK96yvuYLKWK6c1BqSpE/view?usp=share_link
+demo for a1-a3 ➡️ here: https://drive.google.com/drive/folders/1wBPDhdNGI6KogukW1WXjk-0QzKzkZk2v?usp=share_link
+
+sample code from Assignment1 is provided :)
 
 Keyboard Control:  
 	Space: pause the motion
